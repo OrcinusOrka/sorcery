@@ -1,0 +1,299 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Ability	effect.h	/^enum class Ability{ None,$/;"	c
+AirElemental	cardscollection.h	/^const Minion AirElemental = {"Air Elemental", "Minion", 0, {effect_none}, 1, 1};$/;"	v
+ApprenticeSummoner	cardscollection.h	/^const Minion ApprenticeSummoner = {"Apprentice Summoner", "Minion", 1, {effect_ApprenticeSummoner_1}, 1, 1};$/;"	v
+AtkDef	board.cc	/^void Board::AtkDef(const int &target, const int &index,$/;"	f	class:Board
+AtkDef	effect.h	/^                   HealthMana, AtkDef,$/;"	m	class:Ability
+AuraofPower	cardscollection.h	/^const Ritual AuraofPower = {"Aura of Power", "Ritual", 1, {effect_AuraofPower_1}, 4};$/;"	v
+Banish	cardscollection.h	/^const Spell Banish = {"Banish", "Spell", 0 , {effect_Banish_1}};$/;"	v
+Blizzard	cardscollection.h	/^const Spell Blizzard = {"Blizzard", "Spell", 0, {effect_Blizzard_1}};$/;"	v
+Board	board.h	/^class Board{$/;"	c
+CARD_TEMPLATE_BORDER	ascii_graphics.cc	/^const card_template_t CARD_TEMPLATE_BORDER =$/;"	v
+CARD_TEMPLATE_EMPTY	ascii_graphics.cc	/^const card_template_t CARD_TEMPLATE_EMPTY = $/;"	v
+CARD_TEMPLATE_ENCHANTMENT	ascii_graphics.cc	/^const card_template_t CARD_TEMPLATE_ENCHANTMENT = CARD_TEMPLATE_SPELL;$/;"	v
+CARD_TEMPLATE_ENCHANTMENT_WITH_ATTACK_DEFENCE	ascii_graphics.cc	/^const card_template_t CARD_TEMPLATE_ENCHANTMENT_WITH_ATTACK_DEFENCE = CARD_TEMPLATE_MINION_NO_ABILITY;$/;"	v
+CARD_TEMPLATE_MINION_NO_ABILITY	ascii_graphics.cc	/^const card_template_t CARD_TEMPLATE_MINION_NO_ABILITY =$/;"	v
+CARD_TEMPLATE_MINION_WITH_ABILITY	ascii_graphics.cc	/^const card_template_t CARD_TEMPLATE_MINION_WITH_ABILITY =$/;"	v
+CARD_TEMPLATE_RITUAL	ascii_graphics.cc	/^const card_template_t CARD_TEMPLATE_RITUAL =$/;"	v
+CARD_TEMPLATE_SPELL	ascii_graphics.cc	/^const card_template_t CARD_TEMPLATE_SPELL = $/;"	v
+CENTRE_GRAPHIC	ascii_graphics.cc	/^const std::vector<std::string> CENTRE_GRAPHIC = $/;"	v
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -std=c++14 -Wall$/;"	m
+Card	card.cc	/^Card::Card(std::string name, std::string type,$/;"	f	class:Card
+Card	card.h	/^class Card {$/;"	c
+Charge	effect.h	/^                   Charge, Summon, Disenchant,$/;"	m	class:Ability
+DELIMITER	ascii_graphics.cc	/^static const char DELIMITER = '\\v';$/;"	v	file:
+DarkRitual	cardscollection.h	/^const Ritual DarkRitual = {"Dark Ritual", "Ritual", 0, {effect_DarkRitual_1}, 5};$/;"	v
+Deck	deck.h	/^class Deck{$/;"	c
+Disenchant	cardscollection.h	/^const Spell Disenchant = {"Disenchant", "Spell", 0, {effect_Disenchant_1}};$/;"	v
+Disenchant	effect.h	/^                   Charge, Summon, Disenchant,$/;"	m	class:Ability
+EXEC	Makefile	/^EXEC = sorcery$/;"	m
+EXTERNAL_BORDER_CHAR_BOTTOM_LEFT	ascii_graphics.cc	/^const std::string EXTERNAL_BORDER_CHAR_BOTTOM_LEFT =$/;"	v
+EXTERNAL_BORDER_CHAR_BOTTOM_RIGHT	ascii_graphics.cc	/^const std::string EXTERNAL_BORDER_CHAR_BOTTOM_RIGHT =$/;"	v
+EXTERNAL_BORDER_CHAR_LEFT_RIGHT	ascii_graphics.cc	/^const std::string EXTERNAL_BORDER_CHAR_LEFT_RIGHT =$/;"	v
+EXTERNAL_BORDER_CHAR_TOP_LEFT	ascii_graphics.cc	/^const std::string EXTERNAL_BORDER_CHAR_TOP_LEFT =$/;"	v
+EXTERNAL_BORDER_CHAR_TOP_RIGHT	ascii_graphics.cc	/^const std::string EXTERNAL_BORDER_CHAR_TOP_RIGHT =$/;"	v
+EXTERNAL_BORDER_CHAR_UP_DOWN	ascii_graphics.cc	/^const std::string EXTERNAL_BORDER_CHAR_UP_DOWN =$/;"	v
+EarthElemental	cardscollection.h	/^const Minion EarthElemental = {"Earth Elemental", "Minion", 3, {effect_none}, 4, 4};$/;"	v
+Effect	effect.h	/^struct Effect{$/;"	s
+EmptyEnchantment	cardscollection.h	/^const Enchantment EmptyEnchantment = {"", "Enchantment", 0, {effect_none}};$/;"	v
+EmptyMinion	cardscollection.h	/^const Minion EmptyMinion = {"", "Minion", 0, {effect_none}, 0, 0};$/;"	v
+EmptyRitual	cardscollection.h	/^const Ritual EmptyRitual = {"", "Ritual", 0, {effect_none}, 0};$/;"	v
+EmptySpell	cardscollection.h	/^const Spell EmptySpell = {"", "Spell", 0, {effect_none}};$/;"	v
+Enchantment	enchantment.cc	/^class Enchantment: public Card {$/;"	c	file:
+End	effect.h	/^                    Start, Summon, End,$/;"	m	class:Trigger
+FireElemental	cardscollection.h	/^const Minion FireElemental = {"Fire Elemental", "Minion", 2, {effect_FireElemental_1}, 2, 2};$/;"	v
+GiantStrength	cardscollection.h	/^const Enchantment GiantStrength = {"Giant Strength", "Enchantment", 1, {effect_GiantStrength_1}};$/;"	v
+HealthMana	board.cc	/^void Board::HealthMana(const int &index, const int &health_num, const int &mana_num) {$/;"	f	class:Board
+HealthMana	effect.h	/^                   HealthMana, AtkDef,$/;"	m	class:Ability
+InfoDisplay	infodisplay.h	/^struct InfoDisplay {$/;"	s
+MagicFatigue	cardscollection.h	/^const Enchantment MagicFatigue = {"Magic Fatigue", "Enchantment", 0, {effect_MagicFatigue_1}};$/;"	v
+MasterSummoner	cardscollection.h	/^const Minion MasterSummoner = {"Master Summoner", "Minion", 3, {effect_MasterSummoner_1}, 2, 3};$/;"	v
+Minion	minion.cc	/^Minion::Minion(std::string name, std::string type,$/;"	f	class:Minion
+Minion	minion.h	/^class Minion: public Card {$/;"	c
+MoreCost	effect.h	/^                   Unsummon, Silence, MoreCost,$/;"	m	class:Ability
+No	effect.h	/^enum class Target{ No, Yes};$/;"	m	class:Target
+None	effect.h	/^enum class Ability{ None,$/;"	m	class:Ability
+None	effect.h	/^enum class Trigger{ None,$/;"	m	class:Trigger
+NovicePyromancer	cardscollection.h	/^const Minion NovicePyromancer = {"Novice Pyromancer", "Minion", 1, {effect_NovicePyromancer_1}, 0, 1};$/;"	v
+OBJECTS	Makefile	/^OBJECTS = main.o ascii_graphics.o board.o card.o cardscollection.o deck.o effect.o enchantment.o minion.o player.o ritual.o spell.o textdisplay.o$/;"	m
+OppoentStart	effect.h	/^                    OppoentStart, OppoentSummon, OppoentEnd};$/;"	m	class:Trigger
+OppoentSummon	effect.h	/^                    OppoentStart, OppoentSummon, OppoentEnd};$/;"	m	class:Trigger
+OwnEnd	effect.h	/^                    OwnStart, OwnSummon, OwnEnd,$/;"	m	class:Trigger
+OwnStart	effect.h	/^                    OwnStart, OwnSummon, OwnEnd,$/;"	m	class:Trigger
+OwnSummon	effect.h	/^                    OwnStart, OwnSummon, OwnEnd,$/;"	m	class:Trigger
+PLAYER_1_TEMPLATE	ascii_graphics.cc	/^const card_template_t PLAYER_1_TEMPLATE =$/;"	v
+PLAYER_2_TEMPLATE	ascii_graphics.cc	/^const card_template_t PLAYER_2_TEMPLATE = $/;"	v
+Player	player.h	/^class Player{$/;"	c
+PotionSeller	cardscollection.h	/^const Minion PotionSeller = {"Potion Seller", "Minion", 2, {effect_PotionSeller_1}, 1, 3};$/;"	v
+RaiseDead	cardscollection.h	/^const Spell RaiseDead = {"Raise Dead", "Spell", 0, {effect_RaiseDead_1}};$/;"	v
+Recharge	cardscollection.h	/^const Spell Recharge = {"Recharge", "Spell", 0, {effect_Recharge_1}};$/;"	v
+Resurrect	effect.h	/^                   Resurrect, Destory};$/;"	m	class:Ability
+Ritual	ritual.cc	/^Ritual::Ritual(std::string name, std::string type,$/;"	f	class:Ritual
+Ritual	ritual.h	/^class Ritual: public Card {$/;"	c
+SIMPLE_GRAPHICS	ascii_graphics.h	/^#define SIMPLE_GRAPHICS /;"	d
+Silence	cardscollection.h	/^const Enchantment Silence = {"Silence", "Enchantment", 1, {effect_Silence_1}};$/;"	v
+Silence	effect.h	/^                   Unsummon, Silence, MoreCost,$/;"	m	class:Ability
+Spell	spell.cc	/^Spell::Spell(std::string name, std::string type,$/;"	f	class:Spell
+Spell	spell.h	/^class Spell: public Card {$/;"	c
+Standstill	cardscollection.h	/^const Ritual Standstill = {"Standstill", "Ritual", 3, {effect_Standstill_1}, 4};$/;"	v
+Start	effect.h	/^                    Start, Summon, End,$/;"	m	class:Trigger
+Summon	effect.h	/^                    Start, Summon, End,$/;"	m	class:Trigger
+Summon	effect.h	/^                   Charge, Summon, Disenchant,$/;"	m	class:Ability
+Target	effect.h	/^enum class Target{ No, Yes};$/;"	c
+TextDisplay	textdisplay.cc	/^TextDisplay::TextDisplay(Board &bp):$/;"	f	class:TextDisplay
+TextDisplay	textdisplay.h	/^class TextDisplay {$/;"	c
+Trigger	effect.h	/^enum class Trigger{ None,$/;"	c
+Unsummon	cardscollection.h	/^const Spell Unsummon = {"Unsummon", "Spell", 0, {effect_Unsummon_1}};$/;"	v
+Unsummon	effect.h	/^                   Unsummon, Silence, MoreCost,$/;"	m	class:Ability
+_BOARD_H_	board.h	/^#define _BOARD_H_$/;"	d
+_CARD_H_	card.h	/^#define _CARD_H_$/;"	d
+_DECK_H_	deck.h	/^#define _DECK_H_$/;"	d
+_EFFECT_H_	effect.h	/^#define _EFFECT_H_$/;"	d
+_ENCHANTMENT_H_	enchantment.cc	/^#define _ENCHANTMENT_H_$/;"	d	file:
+_INFODISPLAY_H_	infodisplay.h	/^#define _INFODISPLAY_H_$/;"	d
+_MINION_H_	minion.h	/^#define _MINION_H_$/;"	d
+_PLAYER_H_	player.h	/^#define _PLAYER_H_$/;"	d
+_RITUAL_H_	ritual.h	/^#define _RITUAL_H_$/;"	d
+_SPELL_H_	spell.h	/^#define _SPELL_H_$/;"	d
+_TEXTDISPLAY_H_	textdisplay.h	/^#define _TEXTDISPLAY_H_$/;"	d
+ability	effect.h	/^  Ability ability; \/\/for any ablities don't need number,$/;"	m	struct:Effect
+ability	infodisplay.h	/^  std::string ability; \/\/ what ability: triggered, activated, none$/;"	m	struct:InfoDisplay
+ability_cost	infodisplay.h	/^  int ability_cost; \/\/ any other cost$/;"	m	struct:InfoDisplay
+action	minion.h	/^  int action;$/;"	m	class:Minion
+addEnchantment	minion.cc	/^void Minion::addEnchantment(Enchantment new_enchantment) {$/;"	f	class:Minion
+addHand	player.cc	/^void Player::addHand(const std::string &card) {$/;"	f	class:Player
+allCards	textdisplay.h	/^  std::vector<InfoDisplay> allCards= {$/;"	m	class:TextDisplay
+atk	infodisplay.h	/^  int atk;$/;"	m	struct:InfoDisplay
+atk	minion.h	/^  int atk;$/;"	m	class:Minion
+attack	board.cc	/^void Board::attack(const int &subject_i, const int &object_i) {$/;"	f	class:Board
+attack	board.cc	/^void Board::attack(const int &target) {$/;"	f	class:Board
+attack	minion.cc	/^void Minion::attack(Minion &target) {$/;"	f	class:Minion
+attack	minion.cc	/^void Minion::attack(Player &target) {$/;"	f	class:Minion
+bottom_left	textdisplay.h	/^  const std::string bottom_left = EXTERNAL_BORDER_CHAR_BOTTOM_LEFT;$/;"	m	class:TextDisplay
+bottom_right	textdisplay.h	/^  const std::string bottom_right = EXTERNAL_BORDER_CHAR_BOTTOM_RIGHT;$/;"	m	class:TextDisplay
+bp	textdisplay.h	/^	Board &bp;$/;"	m	class:TextDisplay
+card1	textdisplay.h	/^  std::vector<std::string> card1;$/;"	m	class:TextDisplay
+card2	textdisplay.h	/^  std::vector<std::string> card2;$/;"	m	class:TextDisplay
+card3	textdisplay.h	/^  std::vector<std::string> card3;$/;"	m	class:TextDisplay
+card4	textdisplay.h	/^  std::vector<std::string> card4;$/;"	m	class:TextDisplay
+card5	textdisplay.h	/^  std::vector<std::string> card5;$/;"	m	class:TextDisplay
+card_border	textdisplay.h	/^  std::vector<std::string> card_border=CARD_TEMPLATE_BORDER;$/;"	m	class:TextDisplay
+card_template_t	ascii_graphics.h	/^typedef std::vector<std::string> card_template_t;$/;"	t
+card_width	textdisplay.h	/^  const int card_width=33; \/\/ the width of a card$/;"	m	class:TextDisplay
+cards	deck.h	/^    std::vector<std::string> cards;$/;"	m	class:Deck
+charge	infodisplay.h	/^  int charge; \/\/ for ritual$/;"	m	struct:InfoDisplay
+charge	ritual.h	/^  int charge;$/;"	m	class:Ritual
+checkTrigger	board.cc	/^void Board::checkTrigger(const Trigger &trigger) {$/;"	f	class:Board
+checkTrigger	board.cc	/^void Board::checkTrigger(const Trigger &trigger, const int &index, const int & p, const int & t) {$/;"	f	class:Board
+checkWinner	board.cc	/^int Board::checkWinner() {$/;"	f	class:Board
+cost	card.h	/^  int cost;$/;"	m	class:Card
+cost	effect.h	/^  int cost;$/;"	m	struct:Effect
+cost	infodisplay.h	/^  int cost;$/;"	m	struct:InfoDisplay
+createEchantment	board.cc	/^Enchantment Board::createEchantment(std::string new_card) {$/;"	f	class:Board
+createMinion	board.cc	/^Minion Board::createMinion(std::string new_card) {$/;"	f	class:Board
+createRitual	board.cc	/^Ritual Board::createRitual(std::string new_card) {$/;"	f	class:Board
+createSpell	board.cc	/^Spell Board::createSpell(std::string new_card) {$/;"	f	class:Board
+deck	player.h	/^    Deck deck;$/;"	m	class:Player
+def	infodisplay.h	/^  int def;$/;"	m	struct:InfoDisplay
+def	minion.h	/^  int def;$/;"	m	class:Minion
+desc	infodisplay.h	/^  std::string desc; \/\/ any desc$/;"	m	struct:InfoDisplay
+describe	effect.h	/^  std::string describe;$/;"	m	struct:Effect
+destory	board.cc	/^void Board::destory(const int &target, const int &index) {$/;"	f	class:Board
+discard	board.cc	/^void Board::discard(const int &i) {$/;"	f	class:Board
+discard	player.cc	/^void Player::discard(const int &n){$/;"	f	class:Player
+discribeHand	player.cc	/^std::vector<std::string> Player::discribeHand(){$/;"	f	class:Player
+disenchant	board.cc	/^void Board::disenchant(const int &target) {$/;"	f	class:Board
+display	textdisplay.cc	/^void TextDisplay::display(string type, int which_player, int target) {$/;"	f	class:TextDisplay
+display_enchantment	ascii_graphics.cc	/^card_template_t display_enchantment(std::string name,int cost,std::string desc) {$/;"	f
+display_enchantment_attack_defence	ascii_graphics.cc	/^card_template_t display_enchantment_attack_defence(std::string name,int cost,std::string desc,$/;"	f
+display_enchantment_general	ascii_graphics.cc	/^static card_template_t display_enchantment_general(card_template_t out,std::string name,int cost,$/;"	f	file:
+display_minion_activated_ability	ascii_graphics.cc	/^card_template_t display_minion_activated_ability(std::string name,int cost,int attack, int defence,$/;"	f
+display_minion_general	ascii_graphics.cc	/^static card_template_t display_minion_general(card_template_t out,std::string name,int cost,int attack,int defence,std::string desc,int ability_cost) {$/;"	f	file:
+display_minion_no_ability	ascii_graphics.cc	/^card_template_t display_minion_no_ability(std::string name,int cost,int attack,int defence) {$/;"	f
+display_minion_triggered_ability	ascii_graphics.cc	/^card_template_t display_minion_triggered_ability(std::string name,int cost,int attack,$/;"	f
+display_player_card	ascii_graphics.cc	/^card_template_t display_player_card(int player_num,std::string name,int life,int mana) {$/;"	f
+display_ritual	ascii_graphics.cc	/^card_template_t display_ritual(std::string name,int cost,int ritual_cost,std::string ritual_desc,$/;"	f
+display_spell	ascii_graphics.cc	/^card_template_t display_spell(std::string name,int cost,std::string desc) {$/;"	f
+draw	board.cc	/^void Board::draw() {$/;"	f	class:Board
+draw	player.cc	/^void Player::draw() {$/;"	f	class:Player
+effect_ApprenticeSummoner_1	cardscollection.h	/^const Effect effect_ApprenticeSummoner_1 = {Ability::Summon, Trigger::None, Target::Yes, 1, 0, 1,$/;"	v
+effect_AuraofPower_1	cardscollection.h	/^const Effect effect_AuraofPower_1 = {Ability::AtkDef, Trigger::OwnSummon, Target::Yes, 1, 1, 1,$/;"	v
+effect_Banish_1	cardscollection.h	/^const Effect effect_Banish_1 = {Ability::Destory, Trigger::None, Target::Yes, 0, 0, 2,$/;"	v
+effect_Blizzard_1	cardscollection.h	/^const Effect effect_Blizzard_1 = {Ability::AtkDef, Trigger::None, Target::No, 0, -2, 3,$/;"	v
+effect_DarkRitual_1	cardscollection.h	/^const Effect effect_DarkRitual_1 = {Ability::HealthMana, Trigger::OwnStart, Target::Yes, 0, 1, 1,$/;"	v
+effect_Disenchant_1	cardscollection.h	/^const Effect effect_Disenchant_1 = {Ability::Disenchant, Trigger::None, Target::Yes, 0, 0, 1,$/;"	v
+effect_FireElemental_1	cardscollection.h	/^const Effect effect_FireElemental_1 = {Ability::AtkDef, Trigger::OppoentSummon, Target::Yes, 0, -1, 0,$/;"	v
+effect_GiantStrength_1	cardscollection.h	/^const Effect effect_GiantStrength_1 = {Ability::AtkDef, Trigger::None, Target::Yes, 2, 2, 0,$/;"	v
+effect_MagicFatigue_1	cardscollection.h	/^const Effect effect_MagicFatigue_1 = {Ability::MoreCost, Trigger::None, Target::Yes, 2, 0, 0,$/;"	v
+effect_MasterSummoner_1	cardscollection.h	/^const Effect effect_MasterSummoner_1 = {Ability::Summon, Trigger::None, Target::No, 3, 0, 2,$/;"	v
+effect_NovicePyromancer_1	cardscollection.h	/^const Effect effect_NovicePyromancer_1 = {Ability::AtkDef, Trigger::None, Target::Yes, 0, -1, 1,$/;"	v
+effect_PotionSeller_1	cardscollection.h	/^const Effect effect_PotionSeller_1 = {Ability::AtkDef, Trigger::OwnEnd, Target::No, 0, 1, 0,$/;"	v
+effect_RaiseDead_1	cardscollection.h	/^const Effect effect_RaiseDead_1 = {Ability::Resurrect, Trigger::None, Target::No, 0, 0, 1,$/;"	v
+effect_Recharge_1	cardscollection.h	/^const Effect effect_Recharge_1 = {Ability::Charge, Trigger::None, Target::No, 3, 0, 1,$/;"	v
+effect_Silence_1	cardscollection.h	/^const Effect effect_Silence_1 = {Ability::Silence, Trigger::None, Target::Yes, 0, 0, 0,$/;"	v
+effect_Standstill_1	cardscollection.h	/^const Effect effect_Standstill_1 = {Ability::Destory, Trigger::Summon, Target::Yes, 0, 0, 2,$/;"	v
+effect_Unsummon_1	cardscollection.h	/^const Effect effect_Unsummon_1 = {Ability::Unsummon, Trigger::None, Target::Yes, 0, 0, 1,$/;"	v
+effect_none	cardscollection.h	/^const Effect effect_none = {Ability::None, Trigger::None, Target::Yes, 0, 0, 0, "", "", false};$/;"	v
+effects	card.h	/^  std::vector<Effect> effects;$/;"	m	class:Card
+empty_spot	textdisplay.h	/^  std::vector<std::string> empty_spot=CARD_TEMPLATE_EMPTY;$/;"	m	class:TextDisplay
+enchant_atk	infodisplay.h	/^  std::string enchant_atk;$/;"	m	struct:InfoDisplay
+enchant_def	infodisplay.h	/^  std::string enchant_def;$/;"	m	struct:InfoDisplay
+enchantments	minion.h	/^  std::vector<Enchantment> enchantments;$/;"	m	class:Minion
+end	board.cc	/^void Board::end() {$/;"	f	class:Board
+exist_hand	player.cc	/^bool Player::exist_hand(const int &i) {$/;"	f	class:Player
+exist_minions	board.cc	/^bool Board::exist_minions(const int &target, const int& i) {$/;"	f	class:Board
+getAction	minion.cc	/^int Minion::getAction() const {$/;"	f	class:Minion
+getAtk	minion.cc	/^int Minion::getAtk() const{$/;"	f	class:Minion
+getCharge	ritual.cc	/^int Ritual::getCharge() const {$/;"	f	class:Ritual
+getCost	card.cc	/^int Card::getCost() const {$/;"	f	class:Card
+getDef	minion.cc	/^int Minion::getDef() const {$/;"	f	class:Minion
+getEffects	card.cc	/^std::vector<Effect> Card::getEffects() const {$/;"	f	class:Card
+getEnchantments	minion.cc	/^const std::vector<Enchantment> &Minion::getEnchantments(){$/;"	f	class:Minion
+getGraveyard	board.cc	/^std::string Board::getGraveyard(const int &player)  {$/;"	f	class:Board
+getGraveyard	player.cc	/^std::string Player::getGraveyard() {$/;"	f	class:Player
+getHand	board.cc	/^std::vector<std::string> Board::getHand(const int &player){$/;"	f	class:Board
+getHealth	player.cc	/^int Player::getHealth() const {$/;"	f	class:Player
+getMana	player.cc	/^int Player::getMana() const {$/;"	f	class:Player
+getMinions	board.cc	/^std::vector<InfoDisplay> Board::getMinions(const int &player){$/;"	f	class:Board
+getName	card.cc	/^std::string Card::getName() const {$/;"	f	class:Card
+getOriEffects	card.cc	/^std::vector<Effect> Card::getOriEffects() const {$/;"	f	class:Card
+getPlayer	board.cc	/^std::string Board::getPlayer(const int &player, int &mana, int &health){$/;"	f	class:Board
+getRitual	board.cc	/^InfoDisplay Board::getRitual(const int &player){$/;"	f	class:Board
+getTop	deck.cc	/^std::string Deck::getTop(){$/;"	f	class:Deck
+getType	card.cc	/^std::string Card::getType() const {$/;"	f	class:Card
+getname	player.cc	/^std::string Player::getname() const{$/;"	f	class:Player
+graveyard	player.h	/^    std::vector<std::string> graveyard;$/;"	m	class:Player
+handcards	player.h	/^    std::vector<std::string> handcards;$/;"	m	class:Player
+health	player.h	/^    int health = 20;$/;"	m	class:Player
+info_to_print	textdisplay.cc	/^card_template_t TextDisplay::info_to_print(InfoDisplay info) {$/;"	f	class:TextDisplay
+init	board.cc	/^void Board::init(const std::string &deck1 , const std::string &deck2) {$/;"	f	class:Board
+init	deck.cc	/^void Deck::init(std::string filename){$/;"	f	class:Deck
+init	player.cc	/^void Player::init(std::string filename, bool is_test, const int &seed) {$/;"	f	class:Player
+inspectMinion	board.cc	/^std::vector<std::string> Board::inspectMinion(const int &player,$/;"	f	class:Board
+isEmpty	deck.cc	/^bool Deck::isEmpty(){$/;"	f	class:Deck
+is_need_target_play	board.cc	/^bool Board::is_need_target_play(const int & t) {$/;"	f	class:Board
+is_need_target_use	board.cc	/^bool Board::is_need_target_use(const int & t) {$/;"	f	class:Board
+is_scilence	effect.h	/^  bool is_scilence = false;$/;"	m	struct:Effect
+is_test	board.h	/^    bool is_test = false;$/;"	m	class:Board
+left_right	textdisplay.h	/^  const std::string left_right = EXTERNAL_BORDER_CHAR_LEFT_RIGHT;$/;"	m	class:TextDisplay
+main	main.cc	/^int main(int argc, char *argv[]) {$/;"	f
+mana	player.h	/^    int mana = 3;$/;"	m	class:Player
+minionDie	board.cc	/^void Board::minionDie(const int &target, const int &i) {$/;"	f	class:Board
+minion_to_info	board.cc	/^InfoDisplay Board::minion_to_info(Minion minion){$/;"	f	class:Board
+minions	board.h	/^    std::vector<std::vector<Minion>> minions;$/;"	m	class:Board
+name	card.h	/^  std::string name;$/;"	m	class:Card
+name	infodisplay.h	/^  std::string name;$/;"	m	struct:InfoDisplay
+name	player.h	/^    std::string name = "";$/;"	m	class:Player
+num1	effect.h	/^  int num1; \/\/+atk, +health, summon_num, +charge_num$/;"	m	struct:Effect
+num2	effect.h	/^  int num2; \/\/+def, +mana$/;"	m	struct:Effect
+ori_atk	minion.h	/^  int ori_atk;$/;"	m	class:Minion
+ori_def	minion.h	/^  int ori_def;$/;"	m	class:Minion
+ori_effects	card.h	/^  std::vector<Effect> ori_effects;$/;"	m	class:Card
+play	board.cc	/^void Board::play(const int &i, const int &p, const int &t) {$/;"	f	class:Board
+play	board.cc	/^void Board::play(const int &target) {$/;"	f	class:Board
+playSorcery	main.cc	/^void playSorcery(std::istream &in, Board &bd, TextDisplay &td, int &turn) {$/;"	f
+players	board.h	/^    std::vector<Player> players;$/;"	m	class:Board
+popEnchantment	minion.cc	/^void Minion::popEnchantment() {$/;"	f	class:Minion
+prepare_for_replace	ascii_graphics.cc	/^static void prepare_for_replace(card_template_t &text) {$/;"	f	file:
+print_commond_list	textdisplay.cc	/^void TextDisplay::print_commond_list() {$/;"	f	class:TextDisplay
+putBack	deck.cc	/^void Deck::putBack(std::string s){$/;"	f	class:Deck
+recharge	board.cc	/^void Board::recharge(const int &charge_num) {$/;"	f	class:Board
+replace_text_left	ascii_graphics.cc	/^static void replace_text_left(card_template_t &text,char flag,std::string new_text) {$/;"	f	file:
+replace_text_right	ascii_graphics.cc	/^static void replace_text_right(card_template_t &text,char flag,std::string new_text) {$/;"	f	file:
+restoreMana	player.cc	/^void Player::restoreMana() {$/;"	f	class:Player
+resurrect	board.cc	/^void Board::resurrect() {$/;"	f	class:Board
+ritual_to_info	board.cc	/^InfoDisplay Board::ritual_to_info(Ritual ritual){$/;"	f	class:Board
+rituals	board.h	/^    std::vector<Ritual> rituals;$/;"	m	class:Board
+rm_graveyard	player.cc	/^void Player::rm_graveyard() {$/;"	f	class:Player
+setAction	minion.cc	/^void Minion::setAction(const int & new_action) {$/;"	f	class:Minion
+setAtk	minion.cc	/^void Minion::setAtk(const int &new_atk) {$/;"	f	class:Minion
+setCharge	ritual.cc	/^void Ritual::setCharge(const int& new_charge) {$/;"	f	class:Ritual
+setDef	board.cc	/^void Board::setDef(const int &target, const int &i, const int &new_def) {$/;"	f	class:Board
+setDef	minion.cc	/^void Minion::setDef(const int &new_def) {$/;"	f	class:Minion
+setEffect	card.cc	/^void Card::setEffect(const std::vector<Effect> &new_effects) {$/;"	f	class:Card
+setHealth	player.cc	/^void Player::setHealth(const int &n) {$/;"	f	class:Player
+setMana	player.cc	/^void Player::setMana(const int &n) {$/;"	f	class:Player
+setName	player.cc	/^void Player::setName(const std::string& s) {$/;"	f	class:Player
+set_board	textdisplay.cc	/^vector<string> TextDisplay::set_board() {$/;"	f	class:TextDisplay
+set_hand	textdisplay.cc	/^vector<string> TextDisplay::set_hand(int which_player) {$/;"	f	class:TextDisplay
+set_inspect	textdisplay.cc	/^vector<string> TextDisplay::set_inspect(int which_player, int target) {$/;"	f	class:TextDisplay
+set_player_name	board.cc	/^void Board::set_player_name(const int &p, std::string name) {$/;"	f	class:Board
+shuffle	deck.cc	/^void Deck::shuffle(const int &seed) {$/;"	f	class:Deck
+summon	board.cc	/^void Board::summon(std::string summonMonster, const int &num) {$/;"	f	class:Board
+summonMonster	effect.h	/^  std::string summonMonster;$/;"	m	struct:Effect
+target	effect.h	/^  Target target;$/;"	m	struct:Effect
+testMode	board.cc	/^void Board::testMode() {$/;"	f	class:Board
+textDisplayMassage	board.cc	/^void Board::textDisplayMassage(const std::string & message) {$/;"	f	class:Board
+toGraveyard	player.cc	/^void Player::toGraveyard(std::string str) {$/;"	f	class:Player
+top_left	textdisplay.h	/^  const std::string top_left = EXTERNAL_BORDER_CHAR_TOP_LEFT;$/;"	m	class:TextDisplay
+top_right	textdisplay.h	/^  const std::string top_right = EXTERNAL_BORDER_CHAR_TOP_RIGHT;$/;"	m	class:TextDisplay
+trigger	effect.h	/^  Trigger trigger;$/;"	m	struct:Effect
+turn	board.h	/^    int turn = 0; \/\/start with zero$/;"	m	class:Board
+type	card.h	/^  std::string type;$/;"	m	class:Card
+type	infodisplay.h	/^  std::string type; \/\/ minion, ritual, spell, enchant_atk_def, enchant$/;"	m	struct:InfoDisplay
+unsummon	board.cc	/^void Board::unsummon(const int &target, const int &index) {$/;"	f	class:Board
+up_down	textdisplay.h	/^  const std::string up_down = EXTERNAL_BORDER_CHAR_UP_DOWN;$/;"	m	class:TextDisplay
+update	minion.cc	/^void Minion::update() {  \/\/AtkDef Scilence Cost can be used as enChantments$/;"	f	class:Minion
+use	board.cc	/^void Board::use(const int &i, const int &p, const int &t) {$/;"	f	class:Board
+use	board.cc	/^void Board::use(const int &target) {$/;"	f	class:Board
+useHand	player.cc	/^std::string Player::useHand(const int &i) {$/;"	f	class:Player
+use_textdisplay	board.cc	/^#define use_textdisplay /;"	d	file:
+validAtk	minion.cc	/^void Minion::validAtk() {$/;"	f	class:Minion
+validDef	minion.cc	/^void Minion::validDef() {$/;"	f	class:Minion
+validHealth	player.cc	/^void Player::validHealth() {$/;"	f	class:Player
+valid_hand	main.cc	/^bool valid_hand(std::string str) {$/;"	f
+valid_player	main.cc	/^bool valid_player(std::string str) {$/;"	f
+valid_target	main.cc	/^bool valid_target(std::string str) {$/;"	f
+whatType	board.cc	/^std::string Board::whatType(std::string card) {$/;"	f	class:Board
+what_card	textdisplay.cc	/^card_template_t TextDisplay::what_card(string name) {$/;"	f	class:TextDisplay
+~Card	card.cc	/^Card::~Card() {}$/;"	f	class:Card
+~Minion	minion.cc	/^Minion::~Minion() {}$/;"	f	class:Minion
+~Player	player.cc	/^Player::~Player() {}$/;"	f	class:Player
+~Ritual	ritual.cc	/^Ritual::~Ritual() {}$/;"	f	class:Ritual
+~Spell	spell.cc	/^Spell::~Spell() {}$/;"	f	class:Spell
